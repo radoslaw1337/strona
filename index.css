@@ -8,22 +8,26 @@
 .container{
 	width:100%;
 	height:100vh;
-	background-image: url(obrazki/tuo.jpg);
+	background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
 	background-size: cover;
 	background-position: center;
 
 }	
 button{
-	width:200px;
+	width:300px;
 	padding: 15px 0;
 	text-align: center;
 	margin:20px 10px;
 	border-radius: 25px;
 	font-weight: bold;
-	border: 2px solid #009688;
+	border: 2px solid #fff;
 	background: transparent;
 	color:#fff;
 	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	font-size: 20px;
+
 }
 .content{
 	width: 100%;
@@ -37,7 +41,22 @@ button{
 .content h1{
 	font-size:120px;
 	margin-top: 20px;
-
 }
 
+
+span{
+	background: #636363;
+	height: 100%;
+	width:0;
+	border-radius:25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.2s;
+
+}
+button:hover span{
+	width:100%;
+}
 
