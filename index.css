@@ -43,6 +43,7 @@ button{
 	border-radius: 20px;
 	outline: none;
 	margin-top: 20px;
+	cursor: pointer;
 }
 
 
