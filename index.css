@@ -30,6 +30,7 @@ button{
 
 }
 .content{
+	cursor:context-menu;
 	width: 100%;
 	position: absolute;
 	top:40%;
@@ -39,9 +40,10 @@ button{
 }
 
 .content h1{
+	cursor:context-menu;
 	font-size:90px;
 	margin-top: 20px;
-	cursor:context-menu;
+
 }
 
 
