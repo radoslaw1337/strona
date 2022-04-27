@@ -8,9 +8,14 @@
 .container{
 	width:100%;
 	height:100vh;
-	background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+	background-image: url("bg.gif");
 	background-size: cover;
 	background-position: center;
+
+/* 
+Zapasowy gradient zamiast url
+linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+*/
 
 }	
 button{
@@ -90,4 +95,5 @@ span{
 button:hover span{
 	width:100%;
 }
+
 
